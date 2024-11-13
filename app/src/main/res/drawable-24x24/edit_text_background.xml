@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Estado pressionado -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFB74D" /> <!-- Cor quando pressionado -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+
+    <!-- Estado desabilitado -->
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="#BDBDBD" /> <!-- Cor quando desabilitado -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+
+    <!-- Estado padrão -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FF9800" /> <!-- Cor padrão -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+
+</selector>

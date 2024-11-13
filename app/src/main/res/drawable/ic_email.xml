@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Estado quando o campo está focado -->
+    <item android:state_focused="true" android:color="#FF9800" /> <!-- Laranja -->
+
+    <!-- Estado quando o campo está desabilitado -->
+    <item android:state_enabled="false" android:color="#BDBDBD" /> <!-- Cinza claro -->
+
+    <!-- Estado padrão -->
+    <item android:color="#757575" /> <!-- Cinza escuro -->
+
+</selector>
